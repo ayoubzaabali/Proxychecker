@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0f9a6f2386a0ed97a103fd89944f6f9d",
+    "packages": [
+        {
+            "name": "proxycheck/proxycheck-php",
+            "version": "v0.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/proxycheck/proxycheck-php.git",
+                "reference": "d0544074df5d3da645e989b5b9810b8321c3f23c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/proxycheck/proxycheck-php/zipball/d0544074df5d3da645e989b5b9810b8321c3f23c",
+                "reference": "d0544074df5d3da645e989b5b9810b8321c3f23c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "proxycheck\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "proxycheck and contributors",
+                    "homepage": "https://github.com/proxycheck/proxycheck-php/contributors"
+                }
+            ],
+            "description": "proxycheck.io PHP Library",
+            "homepage": "https://proxycheck.io/",
+            "keywords": [
+                "api",
+                "proxy checking",
+                "proxycheck"
+            ],
+            "support": {
+                "issues": "https://github.com/proxycheck/proxycheck-php/issues",
+                "source": "https://github.com/proxycheck/proxycheck-php/tree/v0.1.9"
+            },
+            "time": "2021-12-09T05:09:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
